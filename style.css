@@ -1,0 +1,32 @@
+body {
+    background-image: url(Background.jpg);
+}
+
+.div_blue {
+    background-color: blue;
+    color: aliceblue;
+}
+
+#inputs_nav {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+#inputs_nav input {
+    height: 40px;
+    border: 3px solid #132c33;
+    background-color: #51c4d3;
+    border-radius: 5px;
+    color: #132c33;
+}
+
+#inputs_nav button {
+    width: 100px;
+    background-color: #132c33;
+    color: #51c4d3;
+    border-radius: 30px;
+    border: 3px solid #51c4d3;
+}
